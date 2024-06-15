@@ -1,0 +1,60 @@
+
+header {
+    font-family: "Fruktur", serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;    
+    display: grid;
+    place-items: center;
+  }
+  header {
+    background: #cb690f;
+    width: 100%;
+    height: 111px;
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .navlist {
+    background: #22cf87;
+    text-align: center;
+    width: 22%;
+    height: 111px;
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+  }
+  div {
+    float: right;
+    width: 60%;
+  }
+
+@media (max-width: 430px) {
+    ul {
+        flex-direction: column;
+    }
+}
+
+nav {
+    height: auto;
+}
+@media only screen and (max-width: 768px) {
+  
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

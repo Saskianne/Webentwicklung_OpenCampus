@@ -1,0 +1,36 @@
+body {
+    font-family: 'Abyssinica SIL', serif;
+}
+.nav-header {
+    background: #00FFFF
+}
+
+.nav-header nav {
+
+
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+
+}
+
+.nav-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+}
+
+.nav-header li {
+    width 25%;
+    height: 100%
+    display: flex;
+    justify-content: center:
+    align-items: center;
+
+}
+
+.nav-header a {
+    
+}

@@ -1,0 +1,19 @@
+{
+    box-sizing: border-box;
+}
+html {
+    font-size: 32px;
+}
+h1 {
+    font-family: 'Abyssinica SIL', serif;
+    /* online fonts können in der Weise einfach benutzt werden, in CSS oder in HTML */
+    font-size: 24px;
+
+}
+
+.content {
+    margin: auto;
+    width: 50%;
+
+
+}

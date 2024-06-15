@@ -1,0 +1,39 @@
+
+selector {
+    property1: value1;
+    property2: value2;
+}
+
+/* <!--class-based--> */
+.class-name {}
+/* <!--id-based--> */
+#id {property:value;}
+/* <!--combination--> */
+class1, class2 {
+    property: value;
+}
+
+/* <!--external CSS
+linking CSS file to html file--> */
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+.class {
+    color: rgba(); 
+    <!--or in hexadecimal numbers for the colors -->
+    color: #FFFFFF;
+    <!--or -->
+    color: hsla(0, 100%, 50%, 0);
+}
+
+.box {
+    height: 100px;
+    width: 100px; 
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: red;
+}
+/* <!--you can also use the percentage for relation to screen size -->
+<!-- em is for font-related situation: e.g. 1em -- or rem for font size of root document> */
